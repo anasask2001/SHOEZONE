@@ -1,0 +1,13 @@
+.body {
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.App-header {
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+
+* {
+  transition: all 0.2s ease-in-out;
+}

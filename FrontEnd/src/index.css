@@ -1,0 +1,27 @@
+:root {
+  --body_background: white;
+  --body_color:black;
+  --link_color:navy;
+
+}
+
+
+[data-theme='dark']{
+  --body_background:black;
+  --body_color:grey;
+  --link_color:cyan;
+
+}
+
+*{
+  transition: all 0.3s ease-in-out;
+}
+
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  
+  } */

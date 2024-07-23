@@ -1,0 +1,145 @@
+/* Card container */
+.cart-container {
+  padding: 20px;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Card */
+.cart-card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.cart-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.cart-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+/* Content */
+.cart-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.cart-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.cart-price {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.cart-description {
+  font-size: 0.9rem;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.cart-quantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.quantity-button {
+  background-color: #f0f0f0;
+  color: #333333;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 4px;
+}
+
+.quantity-button:hover {
+  background-color: #cccccc;
+}
+
+.quantity-button:active {
+  transform: scale(0.95);
+}
+
+.quantity-display {
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  color: #333333;
+  border-radius: 4px;
+}
+
+/* Delete button */
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: #e63946;
+}
+
+.delete-button:active {
+  transform: scale(0.95);
+}
+
+/* Checkout section */
+.checkout-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.total-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-right: 20px;
+}
+
+.place-order-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.place-order-button:hover {
+  background-color: #000000;
+}
