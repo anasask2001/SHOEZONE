@@ -53,6 +53,7 @@ function AddProduct() {
                 onChange={(e) =>
                   Setnewproduct({ ...newproduct, ProductTitle: e.target.value })
                 }
+                
                 className="mb-4"
               />
               <MDBInput
